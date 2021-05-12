@@ -33,4 +33,9 @@ The code to achieve each objective is available in 5 Jupyter Notebooks in this r
 ## Part B
 To produce outfit recommendations, we created a funnel through which the user’s query gets passed. At each stage, based on cosine similarity and a rule-based heuristic to catch edge cases, we build a recommender function to produce a complete outfit comprising of atleast 3 categories out of top, bottom, one-piece, shoe and accessories. 
 
+### Steps to get an outfit recommendation:
+
+**Step 1:** Run the sections from Loading Stage to the Main Function (3.2)
+
+**Step 2:** Call the outfit( ) function on the new query. This will produce an outfit recommendation
 
