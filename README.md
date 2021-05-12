@@ -35,7 +35,7 @@ To produce outfit recommendations, we created a funnel through which the user’
 
 ### Steps to get an outfit recommendation:
 
-**Step 1:** Run the sections from Loading Stage to the Main Function (3.2)
+**Step 1:** Download the files `Recommender_Function.ipynb` and `Behold+product+data+04262021.xlsx`
 
-**Step 2:** Call the outfit( ) function on the new query. This will produce an outfit recommendation
+**Step 2:** Run the sections from Loading Stage to the Main Function (3.2). Call the outfit( ) function on the new query. This will produce an outfit recommendation
 
