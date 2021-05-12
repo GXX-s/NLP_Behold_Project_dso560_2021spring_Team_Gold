@@ -1,15 +1,36 @@
 # NLP_Behold_Project_dso560_2021spring_Team_Gold
-This is the final group project for dso560 NLP, partnered with Behold. Behold would like to partner with USC’s DSO560 NLP class to develop a recommendation system that is based on the retail fashion brand’s brand descriptive information.
+Behold partnered with USC’s DSO-560 NLP class to collaborate on an alaytics problem.  
 
-## This project is aimed at 2 goals:
+## This project has two objectives:
 
-1. Create a machine learning model to classify brands for Behold products based on product descriptions.
-2. Create a brand recommender algorithm that would recommend an outfit given a customer's search query. This algorithm can be simply a Python function. 
+1. Create a classification algorithm to predict `brand_name` given a product's information (part A)
+2. Build a recommender algorithm to recommend a complete outfit given a customer's search query (part B)
 
-We have 4 jupyternotebooks to document our working process and code. 
+The code to achieve each objective is available in 5 Jupyter Notebooks in this repository.
 
-1. Data Preparation --> output file: 
-2. Model Exploration --> output file: 
-3. Final Model for brand classification
+## Part A: Getting predictions of brand name
+
+### Option 1: To simply get the predictions from the final model
+**Step 1:** Download `cleaned_data_final.csv` and `4_Final_Model_Training_Prediction.ipynb`
+
+**Step 2:** Run the `4_Final_Model_Training_Prediction` notebook using the test data to get the brand name predictions  
+
+
+### Option 2: For details of data cleaning, pre-processing and explored models
+**Step 1:** Download the following files: 
+- `Behold+product+data+04262021.xlsx`
+- `1_Data_Cleaning_Feature_Creation.ipynb`
+- `2_Prepare_Training_Data.ipynb`
+- `3_Model_Exploration.ipynb`
+- `4_Final_Model_Training_Prediction.ipynb`
+
+ **Step 2:** Run the `1_Data_Cleaning_Feature_Creation.ipynb` Jupyter Notebook for details of the data cleaning steps. This will create a `cleaned_data_final.csv` file which is used as an input in the next step.
+
+**Step 3:** Run `2_Prepare_Training_Data.ipynb` for details of the preprocessing techniques. Run `3_Model_Exploration.ipynb` for details of the models explored and their results.
+
+**Step 4:** Run the `4_Final_Model_Training_Prediction` notebook using the test data to get the brand name predictions from the final model.
+
+## Part B
+To produce outfit recommendations, we created a funnel through which the user’s query gets passed. At each stage, based on cosine similarity and a rule-based heuristic to catch edge cases, we build a recommender function to produce a complete outfit comprising of atleast 3 categories out of top, bottom, one-piece, shoe and accessories. 
 
 
