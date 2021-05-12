@@ -32,7 +32,7 @@ Within the scope of this project, we consider only the top 30 brands which featu
 **Step 4:** Run the `4_Final_Model_Training_Prediction` notebook using the test data to get the brand name predictions from the final model.
 
 ## Part B: Outfit Recommendation
-To produce outfit recommendations, we created a funnel through which the user’s query gets passed. At each stage, based on TF-IDF, cosine similarity and a rule-based heuristic to catch edge cases, we build a recommender function to produce a complete outfit comprising of atleast 3 categories out of top, bottom, one-piece, shoe and accessories. 
+To produce outfit recommendations, we created a funnel through which the user’s query gets passed. At each stage, based on TF-IDF, cosine similarity and a rule-based heuristic to catch edge cases, we build a recommender function to produce a complete outfit comprising of at least 3 categories out of top, bottom, one-piece, shoe and accessories. 
 
 ### Steps to get an outfit recommendation:
 
