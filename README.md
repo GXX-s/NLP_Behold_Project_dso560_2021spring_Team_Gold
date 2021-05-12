@@ -1,5 +1,5 @@
 # NLP_Behold_Project_dso560_2021spring_Team_Gold
-Behold partnered with USC’s DSO-560 NLP class to collaborate on an alaytics problem.  
+Behold partnered with USC’s DSO-560 NLP class to collaborate on an analytics problem.  
 
 ## This project has two objectives:
 
@@ -31,7 +31,7 @@ The code to achieve each objective is available in 5 Jupyter Notebooks in this r
 **Step 4:** Run the `4_Final_Model_Training_Prediction` notebook using the test data to get the brand name predictions from the final model.
 
 ## Part B: Outfit Recommendation
-To produce outfit recommendations, we created a funnel through which the user’s query gets passed. At each stage, based on cosine similarity and a rule-based heuristic to catch edge cases, we build a recommender function to produce a complete outfit comprising of atleast 3 categories out of top, bottom, one-piece, shoe and accessories. 
+To produce outfit recommendations, we created a funnel through which the user’s query gets passed. At each stage, based on TF-IDF, cosine similarity and a rule-based heuristic to catch edge cases, we build a recommender function to produce a complete outfit comprising of atleast 3 categories out of top, bottom, one-piece, shoe and accessories. 
 
 ### Steps to get an outfit recommendation:
 
